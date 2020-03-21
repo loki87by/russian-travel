@@ -1,0 +1,15 @@
+@import url("./__logo/header__logo.css");
+@import url("./__lang/header__lang.css");
+@import url("./__lang-link/header__lang-link.css");
+@import url("./__lang/_type/header__lang_type_rus.css");
+@import url("./__lang/_type/header__lang_type_eng.css");
+
+.header {
+top: 30px;
+margin: auto;
+height: max-content;
+max-width: 1184px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}

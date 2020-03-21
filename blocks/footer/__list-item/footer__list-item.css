@@ -1,0 +1,11 @@
+.footer__list-item {
+    list-style: none;
+    display: inline;
+    margin-right: 18px;
+}
+
+.footer__list-item:last-of-type {
+    margin-right: 0px;
+    margin-left: auto;
+    right: 0px;
+}

@@ -1,0 +1,10 @@
+.comments__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFF;
+    margin: auto;
+    max-width: 800px;
+}

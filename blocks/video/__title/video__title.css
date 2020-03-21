@@ -1,0 +1,10 @@
+.video__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    color: #FFF;
+    margin: 0;
+    max-width: 800px;
+    text-align: center;
+}
