@@ -1,0 +1,7 @@
+.video__item-image {
+    z-index: 0;
+}
+
+.video__item-image:hover {
+    opacity: .5;
+}

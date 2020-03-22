@@ -1,6 +1,4 @@
-@import url(./video__iframe.css);
-
-.video__iframes {
+.video__container {
     margin: auto;
     max-width: max-content;
     display: -webkit-box;
@@ -9,5 +7,4 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    opacity: 0.5;
 }
