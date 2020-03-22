@@ -2,3 +2,10 @@
     max-width: 1184px;
     opacity: .3;
 }
+
+@media (max-width: 1024px) {
+    .cover__image {
+        max-width: 1045px;
+        margin-left: -21px;
+    }
+}

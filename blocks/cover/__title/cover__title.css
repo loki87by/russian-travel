@@ -10,3 +10,11 @@
     margin: 0;
     position: absolute;
 }
+
+@media (max-width: 1024px) {
+    .cover__title {
+        top: 211px;
+        max-width: 544px;
+        left: 240px;
+    }
+}

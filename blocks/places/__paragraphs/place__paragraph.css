@@ -7,3 +7,13 @@
     color: #FFF;
     margin-bottom: 36px;
 }
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+    .place__paragraph {
+        margin-bottom: 24px;
+    }
+}

@@ -8,3 +8,9 @@
     margin: 48px, auto, 72px, auto;
     max-width: 640px;
 }
+
+@media (max-width: 1024px) {
+    .video__subtitle {
+        margin: 48px, auto, 73px, auto;
+    }
+}

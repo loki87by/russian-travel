@@ -8,3 +8,10 @@
     margin: auto;
     position: relative;
 }
+
+@media (max-width: 1024px) {
+    .cover {
+        width: 1045px;
+        height: 562px;
+    }
+}

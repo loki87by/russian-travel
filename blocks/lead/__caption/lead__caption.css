@@ -2,10 +2,16 @@
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
-    line-height: 12px;
+    line-height: 1.2;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #fff;
     margin-top: 10.87px;
     margin-bottom: 0px;
+}
+
+@media (max-width: 1024px) {
+    .caption {
+        margin-top: 16px;
+    }
 }

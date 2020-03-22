@@ -11,3 +11,10 @@
     left: 401px;
     max-width: 382px;
 }
+
+@media (max-width: 1024px) {
+    .cover__subtitle {
+        left: 316px;
+        max-width: 413px;
+    }
+}

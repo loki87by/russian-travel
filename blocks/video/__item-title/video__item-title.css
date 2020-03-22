@@ -10,3 +10,9 @@
     max-width: 322px;
     margin: 0px;
 }
+
+@media (max-width: 1024px) {
+    .video__item-title {
+        bottom: 66px;
+    }
+}

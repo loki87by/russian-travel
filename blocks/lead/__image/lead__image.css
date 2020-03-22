@@ -1,6 +1,11 @@
 .lead__image {
-    background-image: url("../../../images/kalegin-michail-179870-unsplash.jpg");
-    background-size: 984px 554.13px;
-    padding-top: 126.88px;
-    padding-bottom: 201.57px;
+    width: 984px;
+    height: 554.13px;
+}
+
+@media (max-width: 1280px) {
+    .lead__image {
+        width: 928px;
+        height: 554px;
+}
 }

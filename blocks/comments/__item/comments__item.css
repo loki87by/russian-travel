@@ -1,5 +1,5 @@
 .comments__item {
-    max-width: 33%;
+    max-width: calc((100% - 38px)/3);
     margin-right: 0px;
     margin-left: 0px;
 }
