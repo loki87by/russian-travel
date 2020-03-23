@@ -3,10 +3,13 @@
 @import url("./__subtitle/cover__subtitle.css");
 
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     height: 594px;
     margin: auto;
-    position: relative;
+    background-color: #2A2C2F;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3, 33%);
 }
 
 @media (max-width: 1024px) {

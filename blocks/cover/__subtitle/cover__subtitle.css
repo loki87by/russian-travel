@@ -6,23 +6,22 @@
     text-align: center;
     color: #FFF;
     margin: 0;
-    position: absolute;
-    bottom: 48px;
-    left: 401px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    z-index: 1;
+    align-self: center;
+    justify-self: center;
     max-width: 382px;
 }
 
 @media (max-width: 1024px) {
     .cover__subtitle {
-        left: 316px;
         max-width: 413px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__subtitle {
-        left: 193px;
         max-width: 413px;
-        bottom: 40px;
     }
 }

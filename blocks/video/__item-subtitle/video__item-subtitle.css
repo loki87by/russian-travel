@@ -1,13 +1,17 @@
 .video__item-subtitle {
-    position: absolute;
+    /* position: absolute;
     left: 30px;
-    bottom: 30px;
+    bottom: 30px; */
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 15px;
     margin: 0px;
     color: #FFF;
+    grid-row: -3/-1;
+    grid-column: 2/4;
+    z-index: 1;
+    align-self: center;
 }
 
 @media (max-width: 1024px) {

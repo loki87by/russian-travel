@@ -1,6 +1,12 @@
 .cover__image {
     max-width: 1184px;
-    opacity: .3;
+    opacity: .1;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.cover:hover .cover__image {
+    opacity:0.3;
 }
 
 @media (max-width: 1024px) {

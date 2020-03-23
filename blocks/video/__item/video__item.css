@@ -2,11 +2,18 @@
     border: 5px;
     margin-right: 18px;
     width: 583px;
-    position: relative;
+    height: 323px;
+    display: grid;
+    grid-template-columns: 30px repeat(5, 1fr);
+    grid-template-rows: 30px repeat(8, 1fr) 30px;
 }
 
 .video__item:last-of-type {
     margin-right: 0;
+}
+
+.video__item:hover .video__item-image {
+    opacity:0.5;
 }
 
 @media (max-width: 1280px) {
