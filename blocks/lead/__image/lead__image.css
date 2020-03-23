@@ -9,3 +9,10 @@
         height: 554px;
 }
 }
+
+@media (max-width: 768px) {
+    .lead__image {
+        width: 768px;
+        height: 420px;
+}
+}

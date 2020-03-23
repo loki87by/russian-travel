@@ -4,3 +4,10 @@
     left: 30px;
     width: 41px;
 }
+
+@media (max-width: 768px) {
+    .video__item-play {
+        top: 24px;
+        left: 24px;
+    }
+}

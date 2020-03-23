@@ -5,3 +5,9 @@
     margin-right: 0px;
     max-height: max-content;
 }
+
+@media (max-width: 768px) {
+    .footer__links {
+        padding-bottom: 0;
+    }
+}

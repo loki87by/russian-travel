@@ -8,3 +8,9 @@
     right: 0px;
     margin-bottom: 0px;
 }
+
+@media (max-width: 768px) {
+    .footer__copyright {
+        margin-top: 5px;
+    }
+}

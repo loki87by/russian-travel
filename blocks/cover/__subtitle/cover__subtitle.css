@@ -18,3 +18,11 @@
         max-width: 413px;
     }
 }
+
+@media (max-width: 768px) {
+    .cover__subtitle {
+        left: 193px;
+        max-width: 413px;
+        bottom: 40px;
+    }
+}

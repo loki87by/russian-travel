@@ -10,3 +10,10 @@
     margin-bottom: 72px;
     max-width: 640px;
 }
+
+@media (max-width: 768px) {
+    .comments__subtitle {
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+}

@@ -8,3 +8,9 @@
     text-align: center;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .lead__title {
+        max-width: 720px;
+    }
+}

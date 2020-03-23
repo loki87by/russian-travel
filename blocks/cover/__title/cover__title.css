@@ -18,3 +18,11 @@
         left: 240px;
     }
 }
+
+@media (max-width: 768px) {
+    .cover__title {
+        top: 165px;
+        max-width: 520px;
+        left: 120px;
+    }
+}

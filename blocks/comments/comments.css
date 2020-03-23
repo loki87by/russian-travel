@@ -13,3 +13,9 @@
     max-width: 1184px;
     margin-bottom: 102px;
 }
+
+@media (max-width: 768px) {
+    .comments {
+        max-width: 660px;
+    }
+}

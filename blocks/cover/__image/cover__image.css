@@ -9,3 +9,11 @@
         margin-left: -21px;
     }
 }
+
+@media (max-width: 768px) {
+    .cover__image {
+        max-width: 768px;
+        margin-left: 0px;
+        height: 500px;
+    }
+}

@@ -15,3 +15,10 @@
         bottom: 35px;
     }
 }
+
+@media (max-width: 768px) {
+    .video__item-subtitle {
+        bottom: 24px;
+        left: 24px;
+    }
+}

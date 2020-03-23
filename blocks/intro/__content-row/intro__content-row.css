@@ -8,3 +8,15 @@
     line-height: 24px;
     color: #FFF;
 }
+
+@media (max-width: 1280px) {
+    .intro__content-row {
+        max-width: 692px;
+}
+}
+
+@media (max-width: 768px) {
+    .intro__content-row {
+        max-width: 720px;
+}
+}

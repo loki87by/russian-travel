@@ -18,3 +18,11 @@
         max-width: 929px;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        max-width: 722px;
+        margin-top: 102px;
+        padding-bottom: 24px;
+    }
+}

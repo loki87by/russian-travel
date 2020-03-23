@@ -1,5 +1,16 @@
 .comments__item {
-    max-width: calc((100% - 38px)/3);
+    max-width: calc((100vh - 38px)/3);
     margin-right: 0px;
     margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+    .comments__item {
+        max-width: 382px;
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+}
 }

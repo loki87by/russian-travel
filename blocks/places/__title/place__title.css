@@ -11,3 +11,10 @@
     align-self: end;
     max-height: max-content;
 }
+
+@media (max-width: 768px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+    }
+}

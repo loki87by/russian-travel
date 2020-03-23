@@ -1,5 +1,18 @@
 .comments__photo {
     border-radius: 97px;
-    margin-bottom: 12px;
+    margin-bottom: 42px;
     margin-right: 75%;
+}
+
+@media (max-width: 1024px) {
+    .comments__photo {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .comments__photo {
+        margin: auto;
+        order: 1;
+    }
 }

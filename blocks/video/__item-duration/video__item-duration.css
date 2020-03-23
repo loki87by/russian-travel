@@ -16,3 +16,10 @@
         top: 165px;
     }
 }
+
+@media (max-width: 768px) {
+    .video__item-duration {
+        top: 82px;
+        left: 24px;
+    }
+}
