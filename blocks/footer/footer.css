@@ -12,7 +12,7 @@
     justify-content: space-between;
     max-height: max-content;
 }
-
+/*
 @media (max-width: 1024px) {
     .footer {
         max-width: 929px;

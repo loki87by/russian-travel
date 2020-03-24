@@ -1,5 +1,5 @@
 .cover__image {
-    max-width: 1184px;
+    max-width: 100%;
     opacity: .1;
     grid-column: 1/2;
     grid-row: 1/4;
@@ -8,7 +8,7 @@
 .cover:hover .cover__image {
     opacity:0.3;
 }
-
+/*
 @media (max-width: 1024px) {
     .cover__image {
         max-width: 1045px;

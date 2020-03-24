@@ -1,16 +1,23 @@
 .lead__title {
-    max-width: 782px;
+    max-width: 80%;
     margin: auto;
     font-style: normal;
     font-weight: 900;
-    font-size: 96px;
-    line-height: 93px;
+    font-size: 6rem;
+    line-height: .97;
     text-align: center;
     color: #fff;
 }
-
+/*
 @media (max-width: 768px) {
     .lead__title {
-        max-width: 720px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__lang {
+        font-size: 40px;
+        line-height: 44px;
     }
 }

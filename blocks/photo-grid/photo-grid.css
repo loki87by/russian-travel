@@ -5,11 +5,11 @@
     grid-template-columns: 1fr, repeat(4, 25%), 1fr;
     grid-template-rows: 1fr, repeat(3, 33%), 1fr;
     grid-gap: 16px;
-    max-width: max-content;
+    max-width: 82%;
     margin: auto;
     margin-top: 102px;
 }
-
+/*
 @media (max-width: 1024px) {
     .photo-grid {
         grid-template-columns: 1fr, repeat(3, 33%), 1fr;

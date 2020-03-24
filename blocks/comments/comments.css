@@ -10,10 +10,10 @@
     margin-top: 102px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1184px;
+    max-width: 82%;
     margin-bottom: 102px;
 }
-
+/*
 @media (max-width: 768px) {
     .comments {
         max-width: 660px;

@@ -3,3 +3,16 @@
     list-style: none;
     bottom: 0px;
 }
+/*
+@media (max-width: 375px) {
+    .header__lang {
+        margin: 0;
+        padding-bottom: 7px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__lang {
+        padding-bottom: 8px;
+    }
+}

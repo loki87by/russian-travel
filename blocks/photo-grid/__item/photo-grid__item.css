@@ -61,7 +61,7 @@
     grid-column: 4;
     grid-row: 3;
   }
-
+/*
   @media (max-width: 1024px) {
     .photo-grid__item {
       max-width:  300px;

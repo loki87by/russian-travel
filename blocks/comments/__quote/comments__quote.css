@@ -1,11 +1,11 @@
 .comments__quote {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: .9rem;
+    line-height: 1.6;
     color: #FFF;
 }
-
+/*
 @media (max-width: 768px) {
     .comments__quote {
         margin-bottom: 0px, auto, 48px, auto;

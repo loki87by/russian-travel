@@ -1,20 +1,17 @@
 .video__item-title {
-    /* position: absolute;
-    bottom: 61px;
-    left: 30px; */
     font-style: normal;
     font-weight: 900;
-    font-size: 36px;
-    line-height: 39px;
+    font-size: 2.3rem;
+    line-height: 1.1;
     color: #FFF;
-    max-width: 322px;
+    max-width: 55.5%;
     margin: 0px;
     grid-row: -5/-3;
     grid-column: 2/-2;
     z-index: 1;
     align-self: end;
 }
-
+/*
 @media (max-width: 1024px) {
     .video__item-title {
         grid-row: -5/-2;

@@ -1,11 +1,12 @@
 .video__item {
     border: 5px;
     margin-right: 18px;
-    width: 583px;
+    width: calc((100% - 18px)/2);
     height: 323px;
     display: grid;
     grid-template-columns: 30px repeat(5, 1fr);
     grid-template-rows: 30px repeat(8, 1fr) 30px;
+    background-color: #000;
 }
 
 .video__item:last-of-type {
@@ -15,7 +16,7 @@
 .video__item:hover .video__item-image {
     opacity:0.5;
 }
-
+/*
 @media (max-width: 1024px) {
     .video__item {
         grid-template-rows: repeat(8, 30px) 1fr;

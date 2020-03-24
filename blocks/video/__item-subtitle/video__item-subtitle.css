@@ -1,7 +1,4 @@
 .video__item-subtitle {
-    /* position: absolute;
-    left: 30px;
-    bottom: 30px; */
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -13,7 +10,7 @@
     z-index: 1;
     align-self: center;
 }
-
+/*
 @media (max-width: 1024px) {
     .video__item-subtitle {
         grid-row: -2/-1;

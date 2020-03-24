@@ -4,7 +4,7 @@
 @import url("./__list-text/intro__list-text.css");
 
 .intro {
-    max-width: 950px;
+    max-width: 48%;
     max-height: max-content;
     margin: auto;
     padding-top: 80px;
