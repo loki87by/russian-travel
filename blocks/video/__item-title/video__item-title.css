@@ -17,14 +17,13 @@
 
 @media (max-width: 1024px) {
     .video__item-title {
-        bottom: 66px;
+        grid-row: -5/-2;
+        align-self: center;
     }
-}
+} 
 
 @media (max-width: 768px) {
     .video__item-title {
-        bottom: 52px;
-        left: 24px;
         font-size: 24px;
         line-height: 26px;
     }

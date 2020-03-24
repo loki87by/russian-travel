@@ -15,15 +15,9 @@
     align-self: end;
 }
 
-@media (max-width: 1024px) {
-    .video__item-duration {
-        top: 165px;
-    }
-}
-
 @media (max-width: 768px) {
     .video__item-duration {
-        top: 82px;
-        left: 24px;
+        grid-row: 4/6;
+        align-self: center;
     }
-}
+} 

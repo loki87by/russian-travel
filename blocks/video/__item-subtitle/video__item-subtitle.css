@@ -16,13 +16,16 @@
 
 @media (max-width: 1024px) {
     .video__item-subtitle {
-        bottom: 35px;
+        grid-row: -2/-1;
+        grid-column: 2/5;
+        align-self: start;
     }
 }
 
 @media (max-width: 768px) {
     .video__item-subtitle {
-        bottom: 24px;
-        left: 24px;
+        grid-column: 2/6;
+        grid-row: -3/-1;
+        align-self: center;
     }
 }

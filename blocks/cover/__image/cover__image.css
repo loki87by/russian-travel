@@ -12,6 +12,7 @@
 @media (max-width: 1024px) {
     .cover__image {
         max-width: 1045px;
+        height: 562px;
         margin-left: -21px;
     }
 }
