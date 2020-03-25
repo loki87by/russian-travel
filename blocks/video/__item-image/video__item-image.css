@@ -1,7 +1,9 @@
 .video__item-image {
     z-index: 0;
-    grid-row: 1/-1;
-    grid-column: 1/-1;
+    width: max-content;
+    grid-row: 1/11;
+    grid-column: 1/7;
+    margin: 0;
 }
 /*
 @media (max-width: 1280px) {

@@ -1,8 +1,8 @@
 .video__item-subtitle {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 15px;
+    font-size: .9rem;
+    line-height: 1.1;
     margin: 0px;
     color: #FFF;
     grid-row: -3/-1;

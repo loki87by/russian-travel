@@ -6,7 +6,7 @@
 .intro {
     max-width: 48%;
     max-height: max-content;
-    margin: auto;
+    margin-left: 15.5%;
     padding-top: 80px;
     display: flex;
     flex-direction: column;

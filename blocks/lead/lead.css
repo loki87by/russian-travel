@@ -4,10 +4,34 @@
 @import url("./__caption/lead__caption.css");
 
 .lead {
-    max-width: 69%;
+    max-width: 83%;
     max-height: max-content;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .lead {
+        max-width: 105%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 100%;
+    }
 }

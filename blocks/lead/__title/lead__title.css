@@ -8,15 +8,16 @@
     text-align: center;
     color: #fff;
 }
-/*
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
     .lead__title {
-        width: 80%;
+        max-width: max-content;
     }
 }
 
-@media (max-width: 375px) {
-    .header__lang {
+@media (max-width: 767px) {
+    .lead__title {
+        margin-top: 48px;
         font-size: 40px;
         line-height: 44px;
     }

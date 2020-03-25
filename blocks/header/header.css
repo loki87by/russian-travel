@@ -7,35 +7,23 @@
 .header {
 top: 30px;
 margin: auto;
-height: max-content;
+height: min-content;
 max-width: 1184px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 }
-/*
+
 @media (max-width: 1024px) {
     .header {
-        max-width: 928px;
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        max-width: 720px;
+        max-width: 90%;
     }
 }
 
 @media (max-width: 375px) {
     .header {
-        max-width: 343px;
+        max-width: 86%;
         height: 42px;
         top: 16px;
-    }
-}
-
-@media (max-width: 320px) {
-    .header {
-        max-width: 288px;
     }
 }
