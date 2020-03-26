@@ -1,28 +1,47 @@
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
+    max-width: 1184px;
     display: grid;
-    grid-template-columns: 1fr, repeat(4, 25%), 1fr;
-    grid-template-rows: 1fr, repeat(3, 33%), 1fr;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
     grid-gap: 16px;
-    max-width: 82%;
     margin: auto;
     margin-top: 102px;
 }
-/*
-@media (max-width: 1024px) {
+
+@media (max-width: 1227px) {
     .photo-grid {
-        grid-template-columns: 1fr, repeat(3, 33%), 1fr;
-        grid-template-rows: 1fr, repeat(4, 25%), 1fr;
+        max-width: 928px;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto);
         grid-gap: 14px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .photo-grid {
         margin-top: 97px;
-        grid-template-columns: 1fr, repeat(2, 50%), 1fr;
-        grid-template-rows: 1fr, repeat(6, 16.6%), 1fr;
+        max-width: 720px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, auto);
         grid-gap: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .photo-grid {
+        margin-top: 64px;
+        max-width: 343px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(12, auto);
+        row-gap: 16px;
+    }
+}
+
+@media (max-width: 374px) {
+    .photo-grid {
+        max-width: 288px;
+        row-gap: 8px;
     }
 }

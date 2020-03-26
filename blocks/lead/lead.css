@@ -4,7 +4,8 @@
 @import url("./__caption/lead__caption.css");
 
 .lead {
-    max-width: 83%;
+    max-width: 985px;
+    padding-top: 48px;
     max-height: max-content;
     margin: auto;
     display: flex;
@@ -27,11 +28,5 @@
 @media (max-width: 375px) {
     .lead {
         max-width: 105%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .lead {
-        max-width: 100%;
     }
 }

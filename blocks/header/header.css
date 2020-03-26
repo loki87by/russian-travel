@@ -5,13 +5,19 @@
 @import url("./__lang/_type/header__lang_type_eng.css");
 
 .header {
-top: 30px;
 margin: auto;
-height: min-content;
+padding-top: 30px;
+height: 52px;
 max-width: 1184px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        max-width: 92.5%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -24,6 +30,6 @@ justify-content: space-between;
     .header {
         max-width: 86%;
         height: 42px;
-        top: 16px;
+        padding-top: 30px;
     }
 }

@@ -2,13 +2,38 @@
 @import url("./__content-row/intro__content-row.css");
 @import url("./__list/intro__list.css");
 @import url("./__list-text/intro__list-text.css");
+@import url("./__list-numeric/intro__list-numeric.css");
 
 .intro {
-    max-width: 48%;
+    max-width: 985px;
     max-height: max-content;
-    margin-left: 15.5%;
     padding-top: 80px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .intro {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        max-width: 91%;
+    }
+}
+
+@media (max-width: 375px) {
+    .intro {
+        max-width: 86%;
+    }
 }

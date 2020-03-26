@@ -7,3 +7,10 @@
     line-height: 20px;
     color: #FFF;
 }
+
+@media (max-width: 375px) {
+    .intro__list-text {
+        font-size: .75rem;
+        line-height: 1.6;
+    }
+}

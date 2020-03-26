@@ -9,10 +9,17 @@
     margin-top: 10.87px;
     margin-bottom: 0px;
 }
-/*
+
 @media (max-width: 1024px) {
     .caption {
         margin-top: 16px;
+        margin-left: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .caption {
+        margin-left: 0px;
     }
 }
 
