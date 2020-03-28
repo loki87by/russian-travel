@@ -6,9 +6,9 @@
     margin-top: 24px;
     color: #FFF;
 }
-/*
+
 @media (max-width: 768px) {
     .comments__author {
-        margin-bottom: 16px, auto, 24px, auto;
+        margin: 16px auto 24px auto;
     }
 }

@@ -6,19 +6,33 @@
     text-align: center;
     color: #FFF;
     margin: auto;
-    max-width: 67.5%;
+    max-width: 850px;
 }
-/*
+
 @media (max-width: 1024px) {
     .comments__title {
-        line-height: 65px;
+        line-height: .9;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .comments__title {
-        max-width: 660px;
+        max-width: 580px;
         font-size: 42px;
-        line-height: 46px;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 580px) {
+    .comments__title {
+        max-width: 343px;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 320px) {
+    .comments__title {
+        max-width: 288px;
     }
 }

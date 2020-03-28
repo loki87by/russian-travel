@@ -1,27 +1,42 @@
 .cover__title {
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
-    line-height: 78px;
+    font-size: 4.5rem;
+    line-height: 1.9;
     text-align: center;
     color: #FFFDFD;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
     grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
     grid-row: 2/3;
     margin: 0;
     z-index: 1;
-    align-self: center;
-    justify-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
     max-width: max-content;
 }
-/*
+
 @media (max-width: 1024px) {
     .cover__title {
-        max-width: 544px;
+        max-width: 965px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__title {
         max-width: 550px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__title {
+        font-size: 2rem;
+        line-height: 1.1;
     }
 }

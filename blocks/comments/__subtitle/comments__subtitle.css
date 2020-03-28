@@ -8,12 +8,28 @@
     margin: auto;
     margin-top: 48px;
     margin-bottom: 72px;
-    max-width: 54%;
+    max-width: 640px;
 }
-/*
+
 @media (max-width: 768px) {
     .comments__subtitle {
         margin-top: 24px;
-        margin-bottom: 48px;
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 400px) {
+    .comments__subtitle {
+        margin-top: 16px;
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 374px) {
+    .comments__subtitle {
+        max-width: 288px;
+        margin-top: 40px;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 }

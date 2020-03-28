@@ -3,7 +3,7 @@
     margin-bottom: 42px;
     margin-right: 75%;
 }
-/*
+
 @media (max-width: 1024px) {
     .comments__photo {
         margin-bottom: 40px;
@@ -13,6 +13,8 @@
 @media (max-width: 768px) {
     .comments__photo {
         margin: auto;
-        order: 1;
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
     }
 }

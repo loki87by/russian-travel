@@ -31,3 +31,9 @@
         width: 343px;
     }
 }
+
+@media (max-width: 374px) {
+    .video__item-image {
+        width: 288px;
+    }
+}

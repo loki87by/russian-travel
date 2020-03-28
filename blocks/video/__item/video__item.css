@@ -44,3 +44,9 @@
         grid-template-columns: 24px repeat(4, 1fr);
     }
 }
+
+@media (max-width: 374px) {
+    .video__item {
+        width: 288px;
+    }
+}

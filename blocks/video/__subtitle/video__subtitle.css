@@ -5,7 +5,7 @@
     line-height: 1.5;
     text-align: center;
     color: #FFF;
-    margin: 48px, auto, 72px, auto;
+    margin: 48px auto 72px auto;
     max-width: 54%;
 }
 
@@ -34,6 +34,6 @@
 
 @media (max-width: 355px) {
     .video__subtitle {
-        max-width: 288px;
+        width: 288px;
     }
 }
