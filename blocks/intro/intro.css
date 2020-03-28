@@ -35,5 +35,6 @@
 @media (max-width: 375px) {
     .intro {
         max-width: 86%;
+        padding-top: 64px;
     }
 }

@@ -20,9 +20,24 @@
         max-width: 928px;
     }
 }
-/*
-@media (max-width: 768px) {
+
+@media (max-width: 1023px) {
     .places {
         max-width: 720px;
     }
 }
+
+@media (max-width: 767px) {
+    .places {
+        max-width: 375px;
+        padding-top: 16px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 374px) {
+    .places {
+        max-width: 320px;
+    }
+}
+

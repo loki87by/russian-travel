@@ -4,3 +4,9 @@
     align-self: end;
     max-height: max-content;
 }
+
+@media (max-width: 767px) {
+    .place__website {
+        display: none;
+    }
+}

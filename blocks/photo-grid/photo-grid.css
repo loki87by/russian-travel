@@ -26,6 +26,7 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(6, auto);
         grid-gap: 16px;
+        margin-bottom: 10px;
     }
 }
 
@@ -36,6 +37,7 @@
         grid-template-columns: auto;
         grid-template-rows: repeat(12, auto);
         row-gap: 16px;
+        margin-bottom: 0px;
     }
 }
 

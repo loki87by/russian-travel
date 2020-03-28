@@ -5,23 +5,29 @@
     grid-column: 1/7;
     margin: 0;
 }
-/*
+
 @media (max-width: 1280px) {
     .video__item-image {
         max-width: 583px;
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1222px) {
     .video__item-image {
         max-width: 456px;
         height: 288px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .video__item-image {
         height: 200px;
         width: 352px;
+    }
+}
+
+@media (max-width: 727px) {
+    .video__item-image {
+        width: 343px;
     }
 }

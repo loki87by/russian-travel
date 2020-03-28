@@ -8,3 +8,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+
+@media (max-width: 727px) {
+    .video__container {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

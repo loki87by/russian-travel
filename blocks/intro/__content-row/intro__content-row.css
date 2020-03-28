@@ -25,5 +25,7 @@
     .intro__content-row {
         font-size: 1rem;
         line-height: 1.7;
+        margin-top: 32px;
+        margin-bottom: 32px;
 }
 }

@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 1.9rem;
-    line-height: 1.1;
+    line-height: 1.2;
     text-align: center;
     color: #fff;
 }
@@ -19,24 +19,26 @@
 
 @media (max-width: 1024px) {
     .lead__subtitle {
-        margin-top: 45px;
+        margin-top: 46px;
         margin-bottom: 65px;
     }
 }
 
 @media (max-width: 768px) {
     .lead__subtitle {
-        max-width: 720px;
+        max-width: 83%;
         margin-bottom: 78px;
+        margin-top: 48px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 620px) {
     .lead__subtitle {
-        max-width: 94%;
-        margin-bottom: 78px;
+        max-width: 300px;
+        margin-top: 24px;
+        margin-bottom: 54px;
         font-size: 1rem;
-        line-height: 1.95;
+        line-height: 1.5;
     }
 }
 
