@@ -4,12 +4,6 @@
 @import url("./__caption/lead__caption.css");
 
 .lead {
-    max-width: 985px;
-    padding-top: 48px;
-    max-height: -webkit-max-content;
-    max-height: -moz-max-content;
-    max-height: max-content;
-    margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,6 +14,12 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    max-width: 985px;
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    margin: auto;
+    padding-top: 48px;
 }
 
 @media (max-width: 1024px) {

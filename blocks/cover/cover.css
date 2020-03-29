@@ -3,15 +3,15 @@
 @import url("./__subtitle/cover__subtitle.css");
 
 .cover {
-    max-width: 1184px;
-    margin: auto;
-    background-color: #2A2C2F;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1;
     grid-template-columns: 1;
     -ms-grid-rows: (33%)[3];
     grid-template-rows: repeat(3, 33%);
+    max-width: 1184px;
+    margin: auto;
+    background-color: #2A2C2F;
 }
 
 @media (max-width: 1200px) {
@@ -28,7 +28,7 @@
 
 @media (max-width: 1023px) {
     .cover {
-        width: 100vw;
         float: none;
+        width: 100vw;
     }
 }

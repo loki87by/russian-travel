@@ -1,6 +1,7 @@
 .header__lang-menu {
-    list-style: none;
     padding-left: 0px;
+    margin: 0px;
+    list-style: none;
 }
 
 @media (max-width: 375px) {

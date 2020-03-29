@@ -1,17 +1,17 @@
 .video__item-subtitle {
-    font-style: normal;
-    font-weight: normal;
-    font-size: .9rem;
-    line-height: 1.1;
-    margin: 0px;
-    color: #FFF;
     grid-row: -3/-1;
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2/4;
-    z-index: 1;
     -ms-grid-row-align: center;
         align-self: center;
+    z-index: 1;
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .9rem;
+    line-height: 1.1;
+    color: #FFF;
 }
 
 @media (max-width: 1222px) {

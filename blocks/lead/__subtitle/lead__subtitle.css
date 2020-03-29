@@ -44,9 +44,9 @@
 
 @media (max-width: 375px) {
     .lead__subtitle {
+        max-width: 288px;
         margin-top: 8px;
         margin-bottom: 31px;
-        max-width: 288px;
     }
 }
 

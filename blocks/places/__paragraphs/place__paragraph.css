@@ -1,11 +1,11 @@
 .place__paragraph {
-    list-style: none;
+    margin-bottom: 36px;
     font-style: normal;
     font-weight: normal;
     font-size: 3em;
     line-height: 1.7;
+    list-style: none;
     color: #FFF;
-    margin-bottom: 36px;
 }
 
 .place__paragraph:last-of-type {

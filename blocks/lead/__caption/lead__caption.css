@@ -1,4 +1,6 @@
 .caption {
+    margin-top: 10.87px;
+    margin-bottom: 0px;
     font-style: normal;
     font-weight: normal;
     font-size: .6rem;
@@ -6,8 +8,6 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 10.87px;
-    margin-bottom: 0px;
 }
 
 @media (max-width: 1024px) {

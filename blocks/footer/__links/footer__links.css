@@ -1,9 +1,9 @@
 .footer__links {
-    padding-left: 0px;
-    margin: 0px;
     max-width: -webkit-max-content;
     max-width: -moz-max-content;
     max-width: max-content;
+    padding-left: 0px;
+    margin: 0px;
     margin-right: 0px;
 }
 

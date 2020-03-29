@@ -27,11 +27,11 @@
 
 @media (max-width: 1023px) {
     .place__content {
+        -ms-grid-columns: 340px 28px 352px;
+        grid-template-columns: 340px 352px;
         -webkit-column-gap: 28px;
            -moz-column-gap: 28px;
                 column-gap: 28px;
-        -ms-grid-columns: 340px 28px 352px;
-        grid-template-columns: 340px 352px;
     }
 }
 

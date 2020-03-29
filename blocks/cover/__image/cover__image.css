@@ -1,6 +1,5 @@
 .cover__image {
     max-width: 100%;
-    opacity: 1;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
@@ -11,7 +10,7 @@
 }
 
 .cover:hover .cover__image {
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 @media (max-width: 1200px) {

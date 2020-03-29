@@ -1,18 +1,18 @@
 .video__subtitle {
+    max-width: 54%;
+    margin: 48px auto 72px auto;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
     color: #FFF;
-    margin: 48px auto 72px auto;
-    max-width: 54%;
 }
 
 @media (max-width: 1222px) {
     .video__subtitle {
-        margin-bottom: 73px;
         max-width: 640px;
+        margin-bottom: 73px;
     }
 }
 

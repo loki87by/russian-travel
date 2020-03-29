@@ -1,14 +1,14 @@
 .video__container {
-    margin: auto;
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    margin: auto;
 }
 
 @media (max-width: 727px) {

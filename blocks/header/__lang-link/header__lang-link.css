@@ -1,11 +1,11 @@
 .header__lang-link {
+    margin-bottom: 0px;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
     line-height: .95;
     color: #fff;
     text-decoration: none;
-    margin-bottom: 0px;
 }
 
 .header__lang-link:hover {

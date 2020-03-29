@@ -37,19 +37,19 @@
 
 @media (max-width: 767px) {
     .photo-grid {
-        margin-top: 64px;
-        max-width: 343px;
         -ms-grid-columns: auto;
         grid-template-columns: auto;
         -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto;
         grid-template-rows: repeat(12, auto);
         row-gap: 16px;
+        max-width: 343px;
         margin-bottom: 0px;
+        margin-top: 64px;
     }
 
 @media (max-width: 374px) {
     .photo-grid {
-        max-width: 288px;
         row-gap: 8px;
+        max-width: 288px;
     }
 }

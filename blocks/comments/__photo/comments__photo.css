@@ -1,7 +1,7 @@
 .comments__photo {
-    border-radius: 97px;
     margin-bottom: 42px;
     margin-right: 75%;
+    border-radius: 97px;
 }
 
 @media (max-width: 1024px) {
@@ -12,9 +12,9 @@
 
 @media (max-width: 950px) {
     .comments__photo {
-        margin: auto;
         -webkit-box-ordinal-group: 2;
             -ms-flex-order: 1;
                 order: 1;
+        margin: auto;
     }
 }

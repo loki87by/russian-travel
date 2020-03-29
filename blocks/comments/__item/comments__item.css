@@ -6,7 +6,6 @@
 
 @media (max-width: 950px) {
     .comments__item {
-        max-width: 382px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -17,6 +16,7 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
+        max-width: 382px;
         margin: auto;
 }
 }

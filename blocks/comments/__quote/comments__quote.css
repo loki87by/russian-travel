@@ -8,12 +8,12 @@
 
 @media (max-width: 950px) {
     .comments__quote {
-        margin-bottom: 48px;
-        font-size: 1rem;
-        line-height: 1.5;
         max-width: -webkit-max-content;
         max-width: -moz-max-content;
         max-width: max-content;
+        margin-bottom: 48px;
+        font-size: 1rem;
+        line-height: 1.5;
         text-align: left;
     }
 }

@@ -1,13 +1,13 @@
 .footer__copyright {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
     font-style: normal;
     font-weight: normal;
     font-size: .9rem;
     line-height: 1.5;
     text-align: right;
     color: #FFF;
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
 }
 
 @media (max-width: 1023px) {

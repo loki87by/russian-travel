@@ -1,27 +1,27 @@
 .comments__subtitle {
+    max-width: 640px;
+    margin: auto;
+    margin-top: 48px;
+    margin-bottom: 72px;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
     color: #FFF;
-    margin: auto;
-    margin-top: 48px;
-    margin-bottom: 72px;
-    max-width: 640px;
 }
 
 @media (max-width: 950px) {
     .comments__subtitle {
-        margin-top: 24px;
         max-width: 343px;
+        margin-top: 24px;
     }
 }
 
 @media (max-width: 400px) {
     .comments__subtitle {
         margin-top: 16px;
-        margin-top: 48px;
+        margin-bottom: 48px;
     }
 }
 

@@ -1,16 +1,16 @@
 .video__item-title {
+    grid-row: -5/-3;
+    grid-column: 2/-1;
+    -ms-grid-row-align: end;
+        align-self: end;
+    z-index: 1;
+    max-width: 55.5%;
+    margin: 0px;
     font-style: normal;
     font-weight: 900;
     font-size: 2.25rem;
     line-height: 1.1;
     color: #FFF;
-    max-width: 55.5%;
-    margin: 0px;
-    grid-row: -5/-3;
-    grid-column: 2/-1;
-    z-index: 1;
-    -ms-grid-row-align: end;
-        align-self: end;
 }
 
 @media (max-width: 1222px) {
@@ -31,8 +31,8 @@
 @media (max-width: 727px) {
     .video__item-title {
         grid-row: -5/-3;
-        max-width: 90%;
         -ms-grid-row-align: end;
             align-self: end;
+        max-width: 90%;
     }
 }

@@ -8,16 +8,16 @@
 @import url("./__paragraphs/place__paragraph.css");
 
 .places {
+    max-width: 984px;
     margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 984px;
 }
 
 @media (max-width: 1024px) {
     .places {
-        margin-top: 102px;
         max-width: 928px;
+        margin-top: 102px;
     }
 }
 
