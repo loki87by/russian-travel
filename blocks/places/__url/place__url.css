@@ -3,17 +3,13 @@
     font-weight: normal;
     font-size: 3em;
     line-height: 1.7;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     color: #FFF;
 }
 
 .place__url:hover {
-    text-decoration-line: none;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
     opacity: .7;
-}
-/*
-@media (max-width: 767px) {
-    .places__url {
-        display: none;
-    }
 }

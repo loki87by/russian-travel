@@ -5,12 +5,25 @@
     line-height: 1.5;
     text-align: right;
     color: #FFF;
-    right: 0px;
-    margin-bottom: 0px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+}
+
+@media (max-width: 1023px) {
+    .footer__copyright {
+        margin: 0px;
+    }
 }
 
 @media (max-width: 768px) {
     .footer__copyright {
-        margin-top: 5px;
+        padding-top: 5px;
+    }
+}
+
+@media (max-width: 630px) {
+    .footer__copyright {
+        padding-top: 48px;
     }
 }

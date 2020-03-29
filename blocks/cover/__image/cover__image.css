@@ -7,22 +7,21 @@
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     grid-row: 1/4;
+    opacity: 0.3;
 }
 
 .cover:hover .cover__image {
     opacity: 0.2;
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1200px) {
     .cover__image {
-        max-width: 102%;
-        margin-left: -2%;
+        max-width: 1045px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .cover__image {
         max-width: 100%;
-        margin-left: 0px;
     }
 }

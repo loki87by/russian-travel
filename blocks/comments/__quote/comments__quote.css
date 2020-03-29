@@ -6,7 +6,7 @@
     color: #FFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .comments__quote {
         margin-bottom: 48px;
         font-size: 1rem;

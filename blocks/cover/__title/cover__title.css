@@ -2,7 +2,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 4.5rem;
-    line-height: 1.9;
+    line-height: 1.1;
     text-align: center;
     color: #FFFDFD;
     -ms-grid-column: 1;
@@ -17,20 +17,24 @@
         align-self: center;
     -ms-grid-column-align: center;
         justify-self: center;
-    max-width: -webkit-max-content;
-    max-width: -moz-max-content;
-    max-width: max-content;
+    width: 1094px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .cover__title {
         max-width: 965px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 965px) {
     .cover__title {
         max-width: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__title {
+        max-width: 720px;
     }
 }
 
@@ -38,5 +42,12 @@
     .cover__title {
         font-size: 2rem;
         line-height: 1.1;
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 374px) {
+    .cover__title {
+        max-width: 288px;
     }
 }

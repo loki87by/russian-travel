@@ -1,7 +1,13 @@
 .video__item-image {
     z-index: 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
     grid-row: 1/11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
     grid-column: 1/7;
     margin: 0;
 }

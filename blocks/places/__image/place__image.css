@@ -1,8 +1,12 @@
 .place__image {
     margin: 0px;
     padding-right: 0px;
+    -ms-grid-row: 2;
     grid-row: 2;
+    -ms-grid-column: 1;
     grid-column: 1;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
     max-width: max-content;
 }
 
@@ -20,7 +24,9 @@
 
 @media (max-width: 767px) {
     .place__image {
+        -ms-grid-row: 2;
         grid-row: 2;
+        -ms-grid-column: 1;
         grid-column: 1;
         margin-top: 8px;
         max-width: 375px;

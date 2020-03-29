@@ -11,6 +11,33 @@
 
 @media (max-width: 1280px) {
     .lead__title {
+        max-width: -webkit-max-content;
+        max-width: -moz-max-content;
+        max-width: max-content;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__title {
+        margin-top: 48px;
+        font-size: 2.2rem;
+        line-height: 1.1;
+        max-width: 440px;
+    }.lead__title {
+    max-width: 80%;
+    margin: auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: .97;
+    text-align: center;
+    color: #fff;
+}
+
+@media (max-width: 1280px) {
+    .lead__title {
+        max-width: -webkit-max-content;
+        max-width: -moz-max-content;
         max-width: max-content;
     }
 }
@@ -22,6 +49,14 @@
         line-height: 1.1;
         max-width: 440px;
     }
+}
+
+@media (max-width: 375px) {
+    .lead__title {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+}
 }
 
 @media (max-width: 375px) {

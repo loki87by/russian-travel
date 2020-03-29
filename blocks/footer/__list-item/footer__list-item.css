@@ -6,6 +6,12 @@
 
 .footer__list-item:last-of-type {
     margin-right: 0px;
-    margin-left: auto;
-    right: 0px;
+}
+
+
+@media (max-width: 630px) {
+    .footer__list-item {
+        margin-right: 150px;
+        margin-bottom: 32px;
+    }
 }

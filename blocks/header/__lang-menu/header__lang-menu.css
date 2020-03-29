@@ -1,0 +1,11 @@
+.header__lang-menu {
+    list-style: none;
+    padding-left: 0px;
+}
+
+@media (max-width: 375px) {
+    .header__lang-menu {
+        margin: 0;
+        padding-top: 12px;
+    }
+}

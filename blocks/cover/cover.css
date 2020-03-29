@@ -1,11 +1,9 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
 @import url("./__image/cover__image.css");
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
 
 .cover {
-    max-width: 82%;
+    max-width: 1184px;
     margin: auto;
     background-color: #2A2C2F;
     display: -ms-grid;
@@ -16,14 +14,21 @@
     grid-template-rows: repeat(3, 33%);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .cover {
-        width: 1024px;
+        max-width: 1045px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1044px) {
     .cover {
-        width: 768px;
+        float: right;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cover {
+        width: 100vw;
+        float: none;
     }
 }

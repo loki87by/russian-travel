@@ -11,9 +11,9 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/__logo.svg" alt="логотип">
-            <ul class="header__lang">
-                <li class="header__lang header__lang_type_rus"><a class="header__lang-link" href="#">Ru</a></li>
-                <li class="header__lang header__lang_type_eng"><a class="header__lang-link" href="#">En</a></li>
+            <ul class="header__lang-menu">
+                <li class="header__lang header__lang_type_active"><a class="header__lang-link" href="#">Ru</a></li>
+                <li class="header__lang"><a class="header__lang-link" href="#">En</a></li>
             </ul>
         </header>
         <main class="content">
@@ -34,7 +34,7 @@
                     <li class="intro__list-text">Аэропортов <span class="intro__list-numeric">241</span></li>
                 </ul>
             </section>
-            <section class="photo-grid">
+            <section class="photo-grid" aria-label="Фото">
                 <img class="photo-grid__item" src="./images/__item_1.png" alt="вид из поезда">
                 <img class="photo-grid__item" src="./images/__item_02.png" alt="вид с воздуха">
                 <img class="photo-grid__item" src="./images/__item_03.png" alt="туман">
@@ -53,7 +53,7 @@
                     <h3 class="place__title">Куршская коса</h3>
                     <nav class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__url" href="#">park-kosa.ru</a>
+                        <a class="place__url" href="http://park-kosa.ru/">park-kosa.ru</a>
                     </nav>
                     <img class="place__image" src="./images/__image_01.png" alt="Куршская коса">
                     <ul class="place__paragraphs">
@@ -65,7 +65,7 @@
                     <h3 class="place__title">Кольский</h3>
                     <nav class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__url" href="#">National Geographic</a>
+                        <a class="place__url" href="https://nat-geo.ru/">National Geographic</a>
                     </nav>
                     <img class="place__image" src="./images/__image_02.png" alt="Кольский">
                     <ul class="place__paragraphs">
@@ -77,7 +77,7 @@
                     <h3 class="place__title">Алтай</h3>
                     <nav class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__url" href="#">Facebook</a>
+                        <a class="place__url" href="https://ru-ru.facebook.com/">Facebook</a>
                     </nav>
                     <img class="place__image" src="./images/__image_03.png" alt="Алтай">
                     <ul class="place__paragraphs">
@@ -89,7 +89,7 @@
                     <h3 class="place__title">Зимний Байкал</h3>
                     <nav class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__url" href="#">https://vk.com/baikalmile</a>
+                        <a class="place__url" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                     </nav>
                     <img class="place__image" src="./images/__image_04.png" alt="Зимний Байкал">
                     <ul class="place__paragraphs">
@@ -101,12 +101,12 @@
                     <h3 class="place__title">Карелия</h3>
                     <nav class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__url" href="#">http://vodlozero.ru/</a>
+                        <a class="place__url" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
                     </nav>
                     <img class="place__image" src="./images/__image_05.png" alt="Карелия">
                     <ul class="place__paragraphs">
                         <li class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце&nbsp;раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь&nbsp;тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями.&nbsp;Чтобы все знали, кто тут хозяин.</li>
-                        </ul>
+                    </ul>
                 </div>
             </section>
             <section class="video">
@@ -152,7 +152,7 @@
             </section>
             <section class="cover">
                 <img class="cover__image" src="./images/Rect.png" alt="обложка">
-                <h4 class="cover__title">До Байкала «на собаках»</h4>
+                <h4 class="cover__title">До Байкала «на&nbsp;собаках»</h4>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
             </section>
         </main>
@@ -163,8 +163,8 @@
                 <li class="footer__list-item"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
                 <li class="footer__list-item"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
                 <li class="footer__list-item"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-                <li class="footer__list-item"><p class="footer__copyright">&copy; 2020. Акулич Алексей</p></li>
             </ul>
+            <p class="footer__copyright">&copy; 2020. Акулич Алексей</p>
         </footer>
     </div>
 </body>

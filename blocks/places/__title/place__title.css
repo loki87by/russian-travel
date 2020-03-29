@@ -4,11 +4,16 @@
     font-size: 12em;
     line-height: .9;
     color: #FFF;
+    max-width: -webkit-min-content;
+    max-width: -moz-min-content;
     max-width: min-content;
     margin: 0px;
+    -ms-grid-row: 1;
     grid-row: 1;
+    -ms-grid-column: 1;
     grid-column: 1;
-    align-self: end;
+    -ms-grid-row-align: end;
+        align-self: end;
 }
 
 @media (max-width: 1023px) {
@@ -22,6 +27,8 @@
     .place__title {
         font-size: 2rem;
         line-height: 1.1;
+        max-width: -webkit-max-content;
+        max-width: -moz-max-content;
         max-width: max-content;
         margin-left: 16px;
     }

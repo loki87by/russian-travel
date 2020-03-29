@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .comments__photo {
         margin: auto;
         -webkit-box-ordinal-group: 2;

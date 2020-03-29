@@ -1,12 +1,4 @@
 .header__lang {
-    margin-bottom: 12px;
-    list-style: none;
-    bottom: 0px;
-}
-
-@media (max-width: 375px) {
-    .header__lang {
-        margin: 0;
-        padding-top: 12px;
-    }
+    margin-left: 18px;
+    display: inline;
 }

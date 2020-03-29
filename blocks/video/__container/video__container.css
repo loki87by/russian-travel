@@ -1,5 +1,7 @@
 .video__container {
     margin: auto;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
     max-width: max-content;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11,7 +13,12 @@
 
 @media (max-width: 727px) {
     .video__container {
-        flex-direction: column;
-        justify-content: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
 }

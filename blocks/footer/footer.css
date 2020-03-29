@@ -1,6 +1,6 @@
 @import url("./__links/footer__links.css");
-@import url("./__links/footer__link.css");
 @import url("./__list-item/footer__list-item.css");
+@import url("./__links/footer__link.css");
 @import url("./__copyright/footer__copyright.css");
 
 .footer {
@@ -19,9 +19,21 @@
     max-height: max-content;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .footer {
-        max-width: 929px;
+        max-width: calc(100% - 95px);
+    }
+}
+
+@media (max-width: 1044px) {
+    .footer {
+        margin-top: 786.25px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        margin-top: 160px;
     }
 }
 
@@ -33,10 +45,16 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 630px) {
     .footer {
         max-width: 282px;
         margin-top: 64px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-left: 16px;
+        padding-bottom: 0px;
     }
 }
 

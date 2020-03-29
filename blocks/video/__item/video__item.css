@@ -3,8 +3,11 @@
     margin-right: 18px;
     width: 583px;
     height: 323px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 30px (1fr)[5];
     grid-template-columns: 30px repeat(5, 1fr);
+    -ms-grid-rows: 30px (1fr)[8] 30px;
     grid-template-rows: 30px repeat(8, 1fr) 30px;
     background-color: #000;
 }
@@ -20,6 +23,7 @@
 
 @media (max-width: 1222px) {
     .video__item {
+        -ms-grid-rows: (30px)[8] 1fr;
         grid-template-rows: repeat(8, 30px) 1fr;
         margin-right: 16px;
         width: 456px;
@@ -31,7 +35,9 @@
     .video__item {
         width: 352px;
         height: 200px;
+        -ms-grid-columns: 24px (1fr)[5];
         grid-template-columns: 24px repeat(5, 1fr);
+        -ms-grid-rows: 24px (1fr)[6] 24px;
         grid-template-rows: 24px repeat(6, 1fr) 24px;
     }
 }
@@ -41,6 +47,7 @@
         width: 343px;
         margin-right: 0px;
         margin-bottom: 8px;
+        -ms-grid-columns: 24px (1fr)[4];
         grid-template-columns: 24px repeat(4, 1fr);
     }
 }

@@ -11,6 +11,18 @@
     max-width: 1184px;
 }
 
+@media (max-width: 1279px) {
+    .comments {
+        max-width: 929px;
+    }
+}
+
+@media (max-width: 950px) {
+    .comments {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 375px) {
     .comments {
         margin-top: 64px;
