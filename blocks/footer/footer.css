@@ -1,6 +1,6 @@
-@import url("./__links/footer__links.css");
+@import url("./__list/footer__list.css");
 @import url("./__list-item/footer__list-item.css");
-@import url("./__links/footer__link.css");
+@import url("./__link/footer__link.css");
 @import url("./__copyright/footer__copyright.css");
 
 .footer {
@@ -45,7 +45,7 @@
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 767px) {
     .footer {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -54,7 +54,6 @@
         max-width: 282px;
         margin-top: 64px;
         margin-left: 16px;
-        padding-bottom: 0px;
     }
 }
 

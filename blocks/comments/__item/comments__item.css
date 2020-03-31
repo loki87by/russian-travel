@@ -4,6 +4,10 @@
     margin-left: 0px;
 }
 
+.comments__item:last-of-type {
+    margin-right: 0px;
+}
+
 @media (max-width: 950px) {
     .comments__item {
         display: -webkit-box;
@@ -18,6 +22,9 @@
                 align-items: center;
         max-width: 382px;
         margin: auto;
+}
+    .comments__item:last-of-type {
+    margin: auto;
 }
 }
 

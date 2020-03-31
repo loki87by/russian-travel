@@ -1,14 +1,13 @@
-.footer__links {
+.footer__list {
     max-width: -webkit-max-content;
     max-width: -moz-max-content;
     max-width: max-content;
     padding-left: 0px;
     margin: 0px;
-    margin-right: 0px;
 }
 
 @media (max-width: 768px) {
-    .footer__links {
+    .footer__list {
         padding-bottom: 0;
     }
 }

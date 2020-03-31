@@ -2,11 +2,8 @@
 
 .photo-grid {
     max-width: 1184px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto 16px auto 16px auto 16px auto;
     grid-template-columns: repeat(4, auto);
-    -ms-grid-rows: auto 16px auto 16px auto;
     grid-template-rows: repeat(3, auto);
     grid-gap: 16px;
     margin: auto;
@@ -16,36 +13,33 @@
 @media (max-width: 1227px) {
     .photo-grid {
         max-width: 928px;
-        -ms-grid-columns: auto 14px auto 14px auto;
         grid-template-columns: repeat(3, auto);
-        -ms-grid-rows: auto 14px auto 14px auto 14px auto;
         grid-template-rows: repeat(4, auto);
         grid-gap: 14px;
     }
+}
 
 @media (max-width: 1023px) {
     .photo-grid {
         margin-top: 97px;
         max-width: 720px;
-        -ms-grid-columns: auto 16px auto;
         grid-template-columns: repeat(2, auto);
-        -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto;
         grid-template-rows: repeat(6, auto);
         grid-gap: 16px;
         margin-bottom: 10px;
     }
+}
 
 @media (max-width: 767px) {
     .photo-grid {
-        -ms-grid-columns: auto;
         grid-template-columns: auto;
-        -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto;
         grid-template-rows: repeat(12, auto);
         row-gap: 16px;
         max-width: 343px;
         margin-bottom: 0px;
         margin-top: 64px;
     }
+}
 
 @media (max-width: 374px) {
     .photo-grid {

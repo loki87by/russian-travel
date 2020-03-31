@@ -18,12 +18,6 @@
 
 @media (max-width: 768px) {
     .footer__copyright {
-        padding-top: 5px;
-    }
-}
-
-@media (max-width: 630px) {
-    .footer__copyright {
-        padding-top: 48px;
+    padding-top: 48px;
     }
 }

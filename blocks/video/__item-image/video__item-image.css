@@ -41,5 +41,6 @@
 @media (max-width: 374px) {
     .video__item-image {
         width: 288px;
+        height: 192px;
     }
 }
