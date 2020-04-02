@@ -1,4 +1,4 @@
-.comments__author {
+.comment__author {
     margin-top: 24px;
     font-style: normal;
     font-weight: 900;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 950px) {
-    .comments__author {
+    .comment__author {
         margin: 16px auto 24px auto;
     }
 }

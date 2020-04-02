@@ -1,11 +1,6 @@
-.video__item-play {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    z-index: 1;
+/*.video__item-play {
     width: 41px;
+    align-self: flex-start;
+    margin-bottom: auto;
     background-image: url("../../../images/icon_play.png");
 }

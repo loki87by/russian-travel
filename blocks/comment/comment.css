@@ -1,15 +1,19 @@
-.comments__item {
-    max-width: calc((100vh - 38px)/3);
+@import url("./__photo/comment__photo.css");
+@import url("./__quote/comment__quote.css");
+@import url("./__author/comment__author.css");
+
+.comment {
+    max-width: calc((100% - 38px)/3);
     margin-right: 19px;
     margin-left: 0px;
 }
 
-.comments__item:last-of-type {
+.comment:last-of-type {
     margin-right: 0px;
 }
 
 @media (max-width: 950px) {
-    .comments__item {
+    .comment {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -23,19 +27,19 @@
         max-width: 382px;
         margin: auto;
 }
-    .comments__item:last-of-type {
+    .comment:last-of-type {
     margin: auto;
 }
 }
 
 @media (max-width: 400px) {
-    .comments__item {
+    .comment {
         max-width: 343px;
 }
 }
 
 @media (max-width: 350px) {
-    .comments__item {
+    .comment {
         max-width: 288px;
 }
 }

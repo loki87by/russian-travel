@@ -1,14 +1,5 @@
 .video__item-duration {
-    -ms-grid-row: 5;
-    -ms-grid-row-span: 1;
-    grid-row: 5/6;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-    -ms-grid-row-align: end;
-        align-self: end;
-    z-index: 1;
-    margin: 0px;
+    margin: 0;
     font-style: normal;
     font-weight: 500;
     font-size: .75rem;
@@ -16,23 +7,3 @@
     letter-spacing: 0.3em;
     color: #FFF;
 }
-
-@media (max-width: 950px) {
-    .video__item-duration {
-        -ms-grid-row: 4;
-        -ms-grid-row-span: 2;
-        grid-row: 4/6;
-        -ms-grid-row-align: center;
-            align-self: center;
-    }
-}
-
-@media (max-width: 727px) {
-    .video__item-duration {
-        -ms-grid-row: 4;
-        -ms-grid-row-span: 1;
-        grid-row: 4/5;
-        -ms-grid-row-align: center;
-            align-self: center;
-    }
-} 
