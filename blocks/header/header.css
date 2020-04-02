@@ -1,8 +1,8 @@
 @import url("./__logo/header__logo.css");
 @import url("./__lang-menu/header__lang-menu.css");
 @import url("./__lang/header__lang.css");
-@import url("./__lang/_type/header__lang_type_active.css");
 @import url("./__lang-link/header__lang-link.css");
+@import url("./__lang-link/_type/header__lang-link_type_active.css");
 
 .header {
     display: -webkit-box;
