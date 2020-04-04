@@ -4,7 +4,7 @@
 
 .cover {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 100%;
     grid-template-rows: repeat(3, 33%);
     max-width: 1184px;
     margin: auto;

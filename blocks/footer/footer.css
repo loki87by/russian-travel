@@ -6,6 +6,8 @@
 
 .footer {
     max-width: 1184px;
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
     max-height: max-content;
     margin: auto;
     margin-top: 160px;
