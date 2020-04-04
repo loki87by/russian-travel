@@ -1,8 +1,8 @@
 .place__url {
     font-style: normal;
     font-weight: normal;
-    font-size: 3em;
-    line-height: 1.7;
+    font-size: 18px;
+    line-height: 30px;
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
     color: #FFF;

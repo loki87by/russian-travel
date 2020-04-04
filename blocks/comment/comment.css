@@ -1,15 +1,23 @@
 @import url("./__photo/comment__photo.css");
 @import url("./__quote/comment__quote.css");
 @import url("./__author/comment__author.css");
+@import url("./__author/_line-height/comment__author_line-height_big.css");
+@import url("./__author/_margin/comment__author_margin_big.css");
 
 .comment {
     max-width: calc((100% - 38px)/3);
-    margin-right: 19px;
+    margin-right: 0px;
+    margin-left: 19px;
+}
+
+.comment:first-of-type {
     margin-left: 0px;
 }
 
-.comment:last-of-type {
-    margin-right: 0px;
+@media (max-width: 1024px) {
+    .comment:last-of-type {
+    margin-left: 18px;
+    }
 }
 
 @media (max-width: 950px) {
@@ -24,11 +32,14 @@
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center;
-        max-width: 382px;
+        max-width: 75%;
         margin: auto;
 }
     .comment:last-of-type {
-    margin: auto;
+        margin: auto;
+}
+    .comment:first-of-type {
+        margin: auto;
 }
 }
 

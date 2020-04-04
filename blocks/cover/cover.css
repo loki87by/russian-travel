@@ -11,9 +11,9 @@
     background-color: #2A2C2F;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1045px) {
     .cover {
-        max-width: 1045px;
+        max-width: 100%;
     }
 }
 

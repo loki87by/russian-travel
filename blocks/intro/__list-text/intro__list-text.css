@@ -11,6 +11,6 @@
 @media (max-width: 375px) {
     .intro__list-text {
         font-size: .75rem;
-        line-height: 1.6;
+        line-height: 19px;
     }
 }

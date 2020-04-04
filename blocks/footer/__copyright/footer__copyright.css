@@ -4,8 +4,8 @@
     max-width: max-content;
     font-style: normal;
     font-weight: normal;
-    font-size: .9rem;
-    line-height: 1.5;
+    font-size: 14px;
+    line-height: 20px;
     text-align: right;
     color: #FFF;
 }
@@ -16,8 +16,8 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .footer__copyright {
-    padding-top: 48px;
+    padding-top: 16px;
     }
 }

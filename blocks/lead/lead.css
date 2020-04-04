@@ -19,23 +19,16 @@
     max-height: -moz-max-content;
     max-height: max-content;
     margin: auto;
-    padding-top: 48px;
 }
 
 @media (max-width: 1024px) {
     .lead {
-        max-width: 90%;
+        max-width: calc(100% - 96px);
     }
 }
 
 @media (max-width: 768px) {
     .lead {
         max-width: 100%;
-    }
-}
-
-@media (max-width: 375px) {
-    .lead {
-        max-width: 105%;
     }
 }

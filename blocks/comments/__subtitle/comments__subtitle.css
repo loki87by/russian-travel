@@ -1,19 +1,25 @@
 .comments__subtitle {
-    max-width: 640px;
+    max-width: 60%;
     margin: auto;
     margin-top: 48px;
     margin-bottom: 72px;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 35px;
     text-align: center;
     color: #FFF;
 }
 
+@media (max-width: 1150px) {
+    .comments__subtitle {
+        max-width: 80%;
+    }
+}
+
 @media (max-width: 950px) {
     .comments__subtitle {
-        max-width: 343px;
+        max-width: 100%;
         margin-top: 24px;
     }
 }
@@ -22,14 +28,13 @@
     .comments__subtitle {
         margin-top: 16px;
         margin-bottom: 48px;
+        font-size: 1rem;
+        line-height: 23px;
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 370px) {
     .comments__subtitle {
-        max-width: 288px;
-        margin-top: 40px;
-        font-size: 1rem;
-        line-height: 1.5;
+        margin-bottom: 40px;
     }
 }

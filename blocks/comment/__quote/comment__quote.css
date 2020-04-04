@@ -1,8 +1,8 @@
 .comment__quote {
     font-style: normal;
     font-weight: normal;
-    font-size: .9rem;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 24px;
     color: #FFF;
 }
 
@@ -11,9 +11,10 @@
         max-width: -webkit-max-content;
         max-width: -moz-max-content;
         max-width: max-content;
+        margin-top: 24px;
         margin-bottom: 48px;
         font-size: 1rem;
-        line-height: 1.5;
+        line-height: 23px;
         text-align: left;
     }
 }

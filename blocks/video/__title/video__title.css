@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 4.5rem;
-    line-height: 1.1;
+    line-height: 78px;
     color: #FFF;
     text-align: center;
 }
@@ -19,7 +19,7 @@
     .video__title {
         max-width: 70%;
         font-size: 42px;
-        line-height: 1.1;
+        line-height: 46px;
     }
 }
 
@@ -27,7 +27,7 @@
     .video__title {
         max-width: 343px;
         font-size: 2rem;
-        line-height: 1.1;
+        line-height: 35px;
     }
 }
 

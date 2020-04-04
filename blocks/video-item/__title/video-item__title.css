@@ -1,4 +1,4 @@
-.video__item-title {
+.video-item__title {
     max-width: 55.5%;
     margin: 0px;
     margin-top: 12px;
@@ -6,23 +6,34 @@
     font-style: normal;
     font-weight: 900;
     font-size: 2.25rem;
-    line-height: 1.1;
+    line-height: 39px;
     color: #FFF;
 }
 
-@media (max-width: 950px) {
-    .video__item-title {
+@media (max-width: 980px) {
+    .video-item__title {
         max-width: 80%;
+    }
+}
+
+@media (max-width: 980px) {
+    .video-item__title {
         margin-top: 8px;
         margin-bottom: 12px;
         font-size: 1.5rem;
-        line-height: 1.1;
+        line-height: 26px;
     }
 }
 
 @media (max-width: 727px) {
-    .video__item-title {
+    .video-item__title {
         max-width: 90%;
-        margin-bottom: 3px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 727px) {
+    .video-item__title {
+        max-width: 100%;
     }
 }

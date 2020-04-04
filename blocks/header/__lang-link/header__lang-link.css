@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
-    line-height: .95;
+    line-height: 23px;
     color: #fff;
     text-decoration: none;
 }
@@ -14,7 +14,7 @@
 
 @media (max-width: 375px) {
     .header__lang-link {
-        font-size: 1rem;
-        line-height: .95;
+        font-size: 18px;
+        line-height: 17px;
     }
 }

@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 4.5rem;
-    line-height: 1.1;
+    line-height: 78px;
     text-align: center;
     color: #FFFDFD;
 }
@@ -42,7 +42,7 @@
     .cover__title {
         max-width: 343px;
         font-size: 2rem;
-        line-height: 1.1;
+        line-height: 35px;
     }
 }
 

@@ -1,24 +1,24 @@
 .intro__content-row {
-    max-width: 660px;
+    max-width: 683px;
     margin-top: 48px;
     margin-bottom: 24px;
     font-style: normal;
     font-weight: normal;
-    font-size: .9rem;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.5rem;
     color: #FFF;
 }
 
 @media (max-width: 1024px) {
     .intro__content-row {
-        max-width: 672px;
-}
+        max-width: calc(100% - 236px);
+    }
 }
 
 @media (max-width: 768px) {
     .intro__content-row {
-        max-width: 720px;
-}
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 375px) {
@@ -26,6 +26,6 @@
         margin-top: 32px;
         margin-bottom: 32px;
         font-size: 1rem;
-        line-height: 1.7;
+        line-height: 27px;
 }
 }

@@ -21,20 +21,20 @@
 
 @media (max-width: 1280px) {
     .header {
-        max-width: 92.5%;
+        max-width: calc(100% - 96px);
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .header {
-        max-width: 90%;
+        max-width: calc(100% - 48px);
     }
 }
 
 @media (max-width: 375px) {
     .header {
-        max-width: 86%;
+        max-width: calc(100% - 32px);
         height: 42px;
-        padding-top: 30px;
+        padding-top: 16px;
     }
 }

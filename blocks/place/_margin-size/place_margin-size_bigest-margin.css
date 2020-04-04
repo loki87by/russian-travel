@@ -1,0 +1,21 @@
+.place_margin-size_bigest-margin {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .place_margin-size_bigest-margin {
+        margin-bottom: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place_margin-size_bigest-margin {
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 375px) {
+    .place_margin-size_bigest-margin {
+        margin-bottom: 0;
+    }
+}

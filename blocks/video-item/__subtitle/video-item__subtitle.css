@@ -1,0 +1,21 @@
+.video-item__subtitle {
+    bottom: 0px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .9rem;
+    line-height: 1.1;
+    color: #FFF;
+}
+
+@media (max-width: 1025px) {
+    .video-item__subtitle {
+    margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .video-item__subtitle {
+    margin-bottom: 0;
+    }
+}

@@ -1,0 +1,9 @@
+.comment__author_margin_big{
+    margin-top: 16px;
+}
+
+@media (max-width: 1024px) {
+    .comment__author_margin_big {
+        margin-top: 17px;
+    }
+}

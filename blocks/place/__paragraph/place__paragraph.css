@@ -2,8 +2,8 @@
     margin-bottom: 36px;
     font-style: normal;
     font-weight: normal;
-    font-size: 3em;
-    line-height: 1.7;
+    font-size: 18px;
+    line-height: 30px;
     list-style: none;
     color: #FFF;
 }
@@ -21,6 +21,6 @@
 @media (max-width: 768px) {
     .place__paragraph {
         font-size: 1rem;
-        line-height: 1.7;
+        line-height: 27px;
     }
 }
