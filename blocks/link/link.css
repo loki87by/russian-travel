@@ -1,3 +1,22 @@
 .link {
     text-decoration: none;
+    margin-right: 18px;
+}
+
+.link:last-of-type {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1222px) {
+    .link {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 727px) {
+    .link {
+        margin-right: 0px;
+        margin-bottom: 8px;
+    }
 }

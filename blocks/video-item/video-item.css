@@ -8,15 +8,11 @@
 .video-item {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 30px auto;
-    grid-template-columns: 30px auto;
-    -ms-grid-rows: 30px auto 30px;
-    grid-template-rows: 30px auto 30px;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 30px 1fr 30px;
     width: 583px;
     height: 323px;
     border: 5px;
-    margin-right: 18px;
-    opacity: 0.7;
     background-color: #000;
 }
 /* для полноценного функционирования проекта в браузерах от Microsoft
@@ -52,20 +48,10 @@
     -ms-grid-column: 2;
 }*/
 
-.video-item:last-of-type {
-    margin-right: 0;
-    margin-bottom: 0;
-}
-
-.video-item:hover .video-item__image {
-    opacity: 0.2;
-}
-
 @media (max-width: 1222px) {
     .video-item {
         width: 456px;
         height: 288px;
-        margin-right: 16px;
     }
 }
 
@@ -111,8 +97,6 @@
         -ms-grid-rows: 24px auto 24px;
         grid-template-rows: 24px auto 24px;
         width: 343px;
-        margin-right: 0px;
-        margin-bottom: 8px;
     }/*
     .video-item > *:nth-child(1) {
         -ms-grid-row: 1;

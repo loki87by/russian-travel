@@ -38,7 +38,13 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 722px) {
+    .cover__title {
+        max-width: 570px;
+    }
+}
+
+@media (max-width: 573px) {
     .cover__title {
         max-width: 343px;
         font-size: 2rem;

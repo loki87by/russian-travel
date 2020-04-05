@@ -28,6 +28,7 @@
         max-width: -webkit-max-content;
         max-width: -moz-max-content;
         max-width: max-content;
+        justify-self: left;
         margin-left: 16px;
         font-size: 2rem;
         line-height: 35px;

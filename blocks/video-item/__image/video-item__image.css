@@ -1,15 +1,16 @@
 .video-item__image {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 10;
-    grid-row: 1/11;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 6;
-    grid-column: 1/7;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
     z-index: 0;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     margin: 0;
+    opacity: .7;
+}
+
+.video-item:hover .video-item__image{
+    opacity: 0.2;
 }
 
 @media (max-width: 1280px) {
