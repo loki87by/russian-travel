@@ -90,7 +90,7 @@
     }*/
 }
 
-@media (max-width: 727px) {
+@media (max-width: 767px) {
     .video-item {
         -ms-grid-columns: 24px auto;
         grid-template-columns: 24px auto;

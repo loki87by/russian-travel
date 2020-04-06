@@ -11,7 +11,7 @@
     margin: auto;
 }
 
-@media (max-width: 727px) {
+@media (max-width: 767px) {
     .video__container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;

@@ -35,7 +35,7 @@
     }
 }
 
-@media (max-width: 727px) {
+@media (max-width: 767px) {
     .video {
     max-width: 343px;
     margin-top: 16px;

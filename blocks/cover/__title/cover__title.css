@@ -26,7 +26,7 @@
     }
 }
 
-@media (max-width: 965px) {
+@media (max-width: 1000px) {
     .cover__title {
         max-width: 550px;
     }
@@ -38,15 +38,15 @@
     }
 }
 
-@media (max-width: 722px) {
+@media (max-width: 740px) {
     .cover__title {
-        max-width: 570px;
+        max-width: 100%;
     }
 }
 
-@media (max-width: 573px) {
+@media (max-width: 600px) {
     .cover__title {
-        max-width: 343px;
+        max-width: 100%;
         font-size: 2rem;
         line-height: 35px;
     }

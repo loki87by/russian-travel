@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 727px) {
+@media (max-width: 767px) {
     .video-item__layer {
         background-position: left top;
     }

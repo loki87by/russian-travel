@@ -8,6 +8,7 @@
     max-width: max-content;
     margin: 0px;
     padding-right: 0px;
+    object-fit: cover;
 }
 
 @media (max-width: 1080px) {
@@ -33,9 +34,9 @@
     }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 400px) {
     .place__image {
-        max-width: 320px;
+        max-width: 100%;
     }
 }
 
